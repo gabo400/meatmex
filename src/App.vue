@@ -27,7 +27,7 @@
 body {
   font-size: 14px;
   line-height: 21px;
-  background: @Black;
+  background: @White;
   color: @Black;
 }
 a {
