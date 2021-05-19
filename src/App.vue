@@ -606,6 +606,7 @@ header {
   }
 }
 .home-three {
+  background: @White;
   .controlesrs {
   }
   .container-in {
@@ -723,6 +724,7 @@ header {
 }
 .home-seven {
   padding: 100px 0;
+  background: @White;
   .col {
     &.one {
       padding: 0;
