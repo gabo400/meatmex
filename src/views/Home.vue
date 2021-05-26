@@ -22,11 +22,11 @@
             <ul class="">
               <li>
                 <a class="ancla home" href="#slider"
-                  ><router-link class="ancla home" to="/">Home</router-link></a
+                  ><router-link class="ancla home" to="/">Inicio</router-link></a
                 >
               </li>
               <li><a class="-" href="#products">Productos</a></li>
-              <li><a class="ancla" href="#about">nosotros</a></li>
+              <li><a class="ancla" href="#about">Nosotros</a></li>
               <li>
                 <a
                   class="contacto"
@@ -99,7 +99,7 @@
       <div class="col two">
         <a href="">
           <div class="content fadeInUp wow">
-            <h3>Pork</h3>
+            <h3>Cerdo</h3>
             <p>Lorem Ipsum is simply dummy text of the printing</p>
           </div>
           <div class="more two">Ver PRODUCTOS</div>
@@ -108,7 +108,7 @@
       <div class="col three">
         <a href="">
           <div class="content fadeInUp wow">
-            <h3>Chicken</h3>
+            <h3>Pollo</h3>
             <p>Lorem Ipsum is simply dummy text of the printing</p>
           </div>
           <div class="more three">Ver PRODUCTOS</div>
@@ -117,7 +117,7 @@
       <div class="col four">
         <a href="">
           <div class="content fadeInUp wow">
-            <h3>Turkey</h3>
+            <h3>Pavo</h3>
             <p>Lorem Ipsum is simply dummy text of the printing</p>
           </div>
           <div class="more four">Ver PRODUCTOS</div>
