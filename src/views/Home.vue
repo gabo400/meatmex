@@ -478,8 +478,8 @@
 
   <div class="home-five">
     <div class="container-in">
-      <h4 class="title-g">atención para empresas y comercios</h4>
-      <a href="" class="btn-g">Más informacción</a>
+      <h4 class="title-g">Atención para Empresas y Comercios</h4>
+      <a href="" class="btn-g">Más información</a>
     </div>
   </div>
 
@@ -530,15 +530,14 @@
           </div>
         </div>
         <div class="col-md-2 col two">
-          <h4 class="title-g">Menú</h4>
           <nav class="">
             <ul class="">
               <li>
                 <a class="ancla home" href="#slider"
-                  ><router-link class="ancla home" to="/">Home</router-link></a
+                  ><router-link class="ancla home" to="/">Inicio</router-link></a
                 >
               </li>
-              <li><a class="ancla" href="#about">nosotros</a></li>
+              <li><a class="ancla" href="#about">Nosotros</a></li>
               <li><a class="ancla" href="#products">Productos</a></li>
               <li><a class="ancla" href="#contact">Contacto</a></li>
               <li><a class="ancla" href="#contact">Clientes</a></li>
@@ -546,7 +545,6 @@
           </nav>
         </div>
         <div class="col-md-2 col three">
-          <h4 class="title-g">productos</h4>
           <nav class="">
             <ul class="">
               <li><a class="ancla" href="#slider">Res</a></li>
