@@ -31,8 +31,6 @@
 body {
   font-size: 14px;
   line-height: 21px;
-  background: @Black;
-  color: @Black;
 }
 a {
   -webkit-transition: all 0.3s ease 0s;
