@@ -1,4 +1,8 @@
 <template>
+  <!--div id="nav">
+    <router-link to="/">Home</router-link> |
+    <router-link to="/cart">Cart</router-link>
+  </div-->
   <router-view />
 </template>
 
@@ -8,7 +12,7 @@
 @Blue2: #4b7fb5;
 @Gray: #5c5b5f;
 @Gray2: #dcdcdc;
-@Graybg: #f3f3f3;
+@Graybg: #F3F3F3;
 @White: #ffffff;
 @Black: #000000;
 @Red: #f50020;
@@ -16,8 +20,8 @@
 @Pink: #d98b99;
 @Yellow: #f2c230;
 
-@Lemon: "LEMON MILK";
-@Avenir: "Avenir Next LT Pro";
+@Lemon:"LEMON MILK";
+@Avenir:"Avenir Next LT Pro";
 
 // Global Styles Default
 * {
@@ -27,8 +31,6 @@
 body {
   font-size: 14px;
   line-height: 21px;
-  background: @White;
-  color: @Black;
 }
 a {
   -webkit-transition: all 0.3s ease 0s;
@@ -100,8 +102,8 @@ img {
   -o-background-size: 100%;
   background-size: 100%;
 }
-.bg-g() {
-  background: linear-gradient(90deg, #ef0024 0%, #0070bc 100%);
+.bg-g(){
+  background: linear-gradient(90deg, #EF0024 0%, #0070BC 100%);
 }
 .btn-g {
   text-transform: uppercase;
@@ -173,25 +175,25 @@ img {
     }
   }
 }
-.title-g {
+.title-g{
   font-size: 24px;
   color: @Gray;
   text-align: center;
   font-family: @Lemon;
   font-weight: bold;
 }
-.title-b {
+.title-b{
   font-size: 18px;
   color: @Gray;
   font-family: @Lemon;
   font-weight: bold;
-  span {
+  span{
     color: @Blue;
   }
-  &::after {
+  &::after{
     content: "";
     .bg-g;
-    top: 80px;
+    top:  80px;
     z-index: 1;
     width: 400px;
     height: 2px;
@@ -199,28 +201,28 @@ img {
     left: 30px;
   }
 }
-p {
+p{
   font-family: @Avenir;
   font-size: 14px;
 }
-.button-whatsapp-l {
+.button-whatsapp-l{
   height: 50px;
   width: 50px;
   border-radius: 50%;
   overflow: hidden;
   text-align: center;
   background-color: #4dc247;
-  box-shadow: 2px 2px 11px rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 2px 11px rgba(0,0,0,0.1);
   margin: 20px 20px 30px 20px;
   position: fixed;
   bottom: 0;
   z-index: 5;
-  img {
+  img{
     width: 54%;
     padding: 11px 0 0 0;
   }
 }
-.button-cart {
+.button-cart{
   height: 50px;
   width: 50px;
   border-radius: 50%;
@@ -228,12 +230,12 @@ p {
   text-align: center;
   .bg-g;
   right: 0;
-  box-shadow: 2px 2px 11px rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 2px 11px rgba(0,0,0,0.1);
   margin: 20px 20px 30px 20px;
   position: fixed;
   bottom: 0;
   z-index: 5;
-  img {
+  img{
     width: 54%;
     padding: 13px 0 0 0;
     margin: 0 auto;
@@ -374,6 +376,7 @@ header {
 }
 .home-one {
   position: relative;
+  background: @White;
   .slider-home {
     position: relative;
     overflow: hidden;
@@ -467,7 +470,6 @@ header {
     overflow: hidden;
     width: 20%;
     float: left;
-    background: url(./assets/img/chiken.png) no-repeat center center;
     a {
       position: relative;
       z-index: 2;
@@ -535,7 +537,6 @@ header {
     &::before {
       content: "";
       .hover;
-      background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
       height: 100%;
       width: 100%;
       .center-absolute;
@@ -544,6 +545,8 @@ header {
       opacity: 0.6;
     }
     &.one {
+      background: url(./assets/img/cow.svg) no-repeat center center;
+      background-position-y: 90px;
       &:hover {
         &::before {
           .hover;
@@ -556,6 +559,8 @@ header {
       }
     }
     &.two {
+      background: url(./assets/img/pork.svg) no-repeat center center;
+      background-position-y: 90px;
       &:hover {
         &::before {
           .hover;
@@ -568,6 +573,8 @@ header {
       }
     }
     &.three {
+      background: url(./assets/img/chiken.svg) no-repeat center center;
+      background-position-y: 90px;
       &:hover {
         &::before {
           .hover;
@@ -580,6 +587,8 @@ header {
       }
     }
     &.four {
+      background: url(./assets/img/turkey.svg) no-repeat center center;
+      background-position-y: 90px;
       &:hover {
         &::before {
           .hover;
@@ -592,6 +601,8 @@ header {
       }
     }
     &.five {
+      background: url(./assets/img/gourmet.svg) no-repeat center center;
+      background-position-y: 90px;
       &:hover {
         &::before {
           .hover;
@@ -606,7 +617,6 @@ header {
   }
 }
 .home-three {
-  background: @White;
   .controlesrs {
   }
   .container-in {
@@ -668,103 +678,103 @@ header {
     }
   }
 }
-.home-four {
+.home-four{
   padding: 20px 0 0 0;
   background: @Graybg;
-  .container-in {
+  .container-in{
     max-width: 900px;
     padding: 0 30px;
   }
-  .title-g {
+  .title-g{
     margin: 50px 0;
   }
-  .col {
+  .col{
     padding: 0;
-    img {
+    img{
       width: 330px;
       height: 250px;
       float: left;
-      &.left {
+      &.left{
         float: right;
       }
     }
-
-    .title-b {
+    
+    .title-b{
       margin: 30px 0 40px 0;
     }
-    p {
+    p{
       font-size: 14px;
       font-family: @Avenir;
     }
-    &.des {
+    &.des{
       padding: 0 0 0 30px;
     }
-    &.des-two {
+    &.des-two{
       padding: 0;
-      .title-b {
-        &::after {
+      .title-b{
+         &::after{
           left: 0px;
         }
       }
     }
   }
-  .row {
-    padding: 0 0 100px 0 !important;
+  .row{
+    padding: 0 0 100px 0!important;
   }
 }
-.home-five {
+.home-five{
   background: @Blue;
   padding: 80px 0;
-  .title-g {
+  .title-g{
     color: @White;
   }
-  .btn-g {
+  .btn-g{
     margin: 40px auto 0 auto;
   }
 }
-.home-seven {
+.home-seven{
   padding: 100px 0;
   background: @White;
-  .col {
-    &.one {
+  .col{
+    &.one{
       padding: 0;
-      img {
+      img{
         float: right;
-        padding: 0 0 0 90px;
+        padding: 0 0 0 90px;    
       }
     }
-    &.two {
+    &.two{
       padding: 0 90px 0 30px;
-      .title-g {
+      .title-g{
         margin: 0 0 40px 0;
         text-align: initial;
       }
-      p {
+      p{
         margin: 0 0 20px 0;
       }
     }
   }
 }
-footer {
+footer{
   .bg-g;
   color: @White;
   padding: 60px 0 20px 0;
-  .container-in {
-    .col {
-      &.one {
-        .envelop {
+  .container-in{
+    .col{
+      &.one{
+        .envelop{
           width: 300px;
-          img {
+          img{
             width: 300px;
           }
-          p {
+          p{
             font-size: 12px;
             margin: 20px auto;
             text-align: center;
           }
         }
       }
-      .title-g {
+      .title-g{
         text-align: initial;
         color: @White;
         font-size: 14px;
@@ -812,22 +822,21 @@ footer {
           }
         }
       }
-      &.four {
-      }
+      &.four{}
     }
-    .copy {
+    .copy{
       font-size: 12px;
       text-align: end;
-      span {
+      span{
         opacity: 0.7;
       }
-      a {
+      a{
         color: @White;
         .hover;
         opacity: 0.7;
       }
-      &:hover {
-        a {
+      &:hover{
+        a{
           opacity: 1;
           .hover;
         }
@@ -882,4 +891,5 @@ footer {
     }
   }
 }
+
 </style>

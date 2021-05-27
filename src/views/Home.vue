@@ -25,8 +25,8 @@
                   ><router-link class="ancla home" to="/">Inicio</router-link></a
                 >
               </li>
-              <li><a class="-" href="#products">Productos</a></li>
-              <li><a class="ancla" href="#about">Nosotros</a></li>
+              <li><a class="ancla" href="#products">Productos</a></li>
+              <li><a class="ancla" href="#about">nosotros</a></li>
               <li>
                 <a
                   class="contacto"
